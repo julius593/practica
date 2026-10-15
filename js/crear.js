@@ -1,18 +1,12 @@
 // Revisa un campo: si está vacío muestra la alerta y devuelve true
 function estaVacio(campo, etiqueta) {
     if (campo.value.trim() === "") {
-        Swal.fire({
-            icon: "error",
-            title: "Campo vacío",
-            text: etiqueta + " no puede ir vacío."
-        }).then(function () {
-            campo.focus();
-        });
+        alert(etiqueta + " no puede ir vacío.");
+        campo.focus();
         return true;
     }
     return false;
 }
-
 function validar() {
     // Se guardan los ELEMENTOS (no solo su valor) para poder usar .focus()
     var ci = document.getElementById("ci");
