@@ -4,7 +4,7 @@ $ci=$_POST['ci'];
 $nombre=$_POST['nombre'];
 $correo=$_POST['correo'];
 $contrasena=$_POST['contrasena'];
-$sql = "INSERT INTO usuarios (CI,Nombre, Apellido, Usuario ) VALUES('$CI','$Nombre','$Apellido','$Usuario',' )";
+$sql = "INSERT INTO usuarios (ci,nombre, correo, contrasena ) VALUES('$ci','$nombre','$correo','$contrasena',' )";
 
 if($conn->query($sql) === TRUE){
     echo"Nuevo usuario creado exitosamente";
@@ -12,5 +12,5 @@ if($conn->query($sql) === TRUE){
     echo"Error:". $sql. "<br>". $conn->error;
     
 }
-$conn->close();
+$conexion->close();
 ?>
