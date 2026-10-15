@@ -15,16 +15,16 @@
     <form action="casacrear.php" method="post" id="formUsuarios" onsubmit="return validar()" >
 
         <label for="ci">CI</label>
-        <input type="text" id="ci"  >
+        <input type="text" id="ci" name="ci" >
 
         <label for="nombre">NOMBRE Y APELLIDOS</label>
-        <input type="text" id="nombre">
+        <input type="text" id="nombre" name="nombre">
 
         <label for="correo">CORREO</label>
-        <input type="text" id="correo" >
+        <input type="text" id="correo" name="correo">
 
         <label for="contrasena">CONTRASEÑA</label>
-        <input type="password" id="contrasena">
+        <input type="password" id="contrasena"name="contrasena">
 
         <input type="submit" value="REGISTRAR">
         <input type="reset" value="BORRAR">
