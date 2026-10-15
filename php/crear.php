@@ -23,11 +23,6 @@
 
 <label for="CONTRASEÑA">CONTRASEÑA</label>
 <input type="password" id="CONTRASEÑA" >
-
-
-
-
-
     </form>
     
 </body>
