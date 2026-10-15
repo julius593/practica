@@ -15,24 +15,24 @@
     </style>
 </head>
 <body>
-    <form action="insertarusuario.php" method="post" id="formUsuarios" onsubmit="return validar()" novalidate>
+    <form action="" method="post" id="formUsuarios" onsubmit="return validar()" >
 
         <label for="ci">CI</label>
-        <input type="text" id="ci" name="CI" inputmode="numeric">
+        <input type="text" id="ci"  >
 
         <label for="nombre">NOMBRE Y APELLIDOS</label>
-        <input type="text" id="nombre" name="Nombre">
+        <input type="text" id="nombre">
 
         <label for="correo">CORREO</label>
-        <input type="email" id="correo" name="Correo">
+        <input type="email" id="correo" >
 
         <label for="contrasena">CONTRASEÑA</label>
-        <input type="password" id="contrasena" name="Contrasena">
+        <input type="password" id="contrasena">
 
         <input type="submit" value="REGISTRAR">
         <input type="reset" value="BORRAR">
     </form>
 
-    <script src="crear.js"></script>
+    <script src="../js/crear.js"></script>
 </body>
 </html>
