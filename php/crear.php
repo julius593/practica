@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <form action="" method="post" id="formUsuarios">
+    <form action="" method="post" id="formUsuarios" onsubmit="return values()">
 <label for="CI">CI</label>
 <input type="number" id="CI" >
 
