@@ -24,7 +24,7 @@
         <input type="text" id="nombre">
 
         <label for="correo">CORREO</label>
-        <input type="email" id="correo" >
+        <input type="text" id="correo" >
 
         <label for="contrasena">CONTRASEÑA</label>
         <input type="password" id="contrasena">
