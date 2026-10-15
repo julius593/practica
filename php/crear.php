@@ -15,7 +15,7 @@
     </style>
 </head>
 <body>
-    <form action="" method="post" id="formUsuarios" onsubmit="return validar()" >
+    <form action="casacrear.php" method="post" id="formUsuarios" onsubmit="return validar()" >
 
         <label for="ci">CI</label>
         <input type="text" id="ci"  >
