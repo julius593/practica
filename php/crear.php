@@ -23,6 +23,8 @@
 
 <label for="CONTRASEÑA">CONTRASEÑA</label>
 <input type="password" id="CONTRASEÑA" >
+<input type="submit">enviar</input>
+<input type="reset">borrar</input>
     </form>
     
 </body>
