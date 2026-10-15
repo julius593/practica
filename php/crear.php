@@ -10,9 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <style>
-        input.invalido { border: 2px solid #dc3545; }
-    </style>
 </head>
 <body>
     <form action="casacrear.php" method="post" id="formUsuarios" onsubmit="return validar()" >
