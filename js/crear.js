@@ -1,29 +1,31 @@
-var form = document.getElementById('formUsuarios');
- function validar(){
-    var ci = document.getElementById("ci").value ();
-    var nombre = document.getElementById("nombre").value ();
-    var correo = document.getElementById("correo").value ();
-    var contrasena = document.getElementById("contrasena").value ();
-if(ci==""){
-    alert("no puede ir vacio");
-    ci.focus();
-    return false;
-}if(nombre==""){
-   alert("no puede ir vacio");
-    nombre.focus();
-    return false;
-}if(correo==""){
-   alert("no puede ir vacio");
-    correo.focus();
+// Revisa un campo: si está vacío muestra la alerta y devuelve true
+function estaVacio(campo, etiqueta) {
+    if (campo.value.trim() === "") {
+        Swal.fire({
+            icon: "error",
+            title: "Campo vacío",
+            text: etiqueta + " no puede ir vacío."
+        }).then(function () {
+            campo.focus();
+        });
+        return true;
+    }
     return false;
 }
-    if(contrasena==""){
-   alert("no puede ir vacio");
-    contrasena.focus();
-    return false;
-    }
- }
 
+function validar() {
+    // Se guardan los ELEMENTOS (no solo su valor) para poder usar .focus()
+    var ci = document.getElementById("ci");
+    var nombre = document.getElementById("nombre");
+    var correo = document.getElementById("correo");
+    var contrasena = document.getElementById("contrasena");
 
+    if (estaVacio(ci, "El CI")) return false;
+    if (estaVacio(nombre, "El nombre")) return false;
+    if (estaVacio(correo, "El correo")) return false;
+    if (estaVacio(contrasena, "La contraseña")) return false;
+
+    return true; // todo bien: se envía el formulario
+}
 
  
