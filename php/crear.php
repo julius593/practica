@@ -25,6 +25,7 @@
 <input type="password" id="CONTRASEÑA" >
 <input type="submit" value="registrar">
 <input type="reset" value="borrar">
+<script src="../js/crear.js"></script>
     </form>
     
 </body>
