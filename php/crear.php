@@ -13,21 +13,26 @@
 </head>
 <body>
     <form action="casacrear.php" method="post" id="formUsuarios" onsubmit="return validar()" >
-
+<div>
         <label for="ci">CI</label>
         <input type="text" id="ci" name="ci" >
-
+</div>
+<div>
         <label for="nombre">NOMBRE Y APELLIDOS</label>
         <input type="text" id="nombre" name="nombre">
-
+        </div>
+<div>
         <label for="correo">CORREO</label>
         <input type="text" id="correo" name="correo">
-
+        </div>
+<div>
         <label for="contrasena">CONTRASEÑA</label>
         <input type="password" id="contrasena"name="contrasena">
-
+        </div>
+<div>
         <input type="submit" value="REGISTRAR">
         <input type="reset" value="BORRAR">
+        </div>
     </form>
 
     <script src="../js/crear.js"></script>

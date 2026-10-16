@@ -31,7 +31,7 @@ CREATE TABLE `formulario` (
   `ci` int(11) NOT NULL,
   `nombre` int(11) NOT NULL,
   `correo` int(11) NOT NULL,
-  `contraseña` int(11) NOT NULL
+  `contrasena` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
