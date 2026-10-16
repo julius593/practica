@@ -29,10 +29,10 @@
         <label for="contrasena">CONTRASEÑA</label>
         <input type="password" id="contrasena"name="contrasena">
         </div>
-<div>
+
         <input type="submit" value="REGISTRAR">
         <input type="reset" value="BORRAR">
-        </div>
+    
     </form>
 
     
